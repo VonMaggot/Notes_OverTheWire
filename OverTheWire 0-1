@@ -9,6 +9,11 @@ appuyé sur entrée
 mettre le mot de passe
 
 ----- Commande -----
+ssh : SSH est un moyen sécurisé de se connecter à une machine distante. 
+Une fois connecté, vous pouvez exécuter toutes les commandes dont vous avez besoin pour travailler avec le serveur. 
+Et non, l'utilisation de SSH n'est pas difficile. 
+L'utilisation de SSH est non seulement relativement facile, mais elle est également très puissante.
+
 -p : l'option -p de ls ajoute un slash (/) à la fin des noms de répertoires.
 Autrement dit, elle permet d'identifier rapidement les répertoires dans la sortie de ls.
 
@@ -43,6 +48,8 @@ numéro du port
 appuyé sur entrée
 mettre le mot de passe
 entrer
+
+----- Commandes -----
 
 cat : permet d’afficher, de combiner et de manipuler des fichiers texte.
 peut être utilisé pour visualiser rapidement le contenu des fichiers de configuration dans le répertoire /etc ou pour concaténer plusieurs fichiers en un seul. 
