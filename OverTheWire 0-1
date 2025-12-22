@@ -9,7 +9,8 @@ appuyé sur entrée
 mettre le mot de passe
 
 ----- Commande -----
--p 
+-p : l'option -p de ls ajoute un slash (/) à la fin des noms de répertoires.
+Autrement dit, elle permet d'identifier rapidement les répertoires dans la sortie de ls.
 
 ----- A lire -----
 Secure Shell (SSH) on Wikipedia
