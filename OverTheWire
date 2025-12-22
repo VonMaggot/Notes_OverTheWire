@@ -1,0 +1,58 @@
+----- OverTheWire Level 0 -----
+Pour se connecter :
+aller sur powershell
+commande ssh
+l'username accolé à l'host
+commande -p
+numéro du port
+appuyé sur entrée
+mettre le mot de passe
+
+----- A lire -----
+Secure Shell (SSH) on Wikipedia
+How to use SSH with a non-standard port on It’s FOSS
+How to use SSH with ssh-keys on wikiHow
+
+----- Commande -----
+ls : La commande ls compte parmi les commandes Linux les plus importantes et les plus utilisées. 
+Cette commande est essentielle si vous souhaitez afficher tout le contenu d’un dossier ou d’un répertoire sur la ligne de commande.
+Le contenu est alors affiché par défaut dans l’ordre alphabétique. 
+La commande ls figure parmi les éléments standards de la plupart des distributions Linux, comme Ubuntu.
+Grâce aux différentes options qui l’accompagnent, elle peut assurer diverses fonctions très précises. 
+Le terme « ls » est une contradiction du mot anglais « List ».
+Si vous décidez de saisir et d’exécuter la commande ls sur votre ligne de commande, Celle-ci s’occupe de récupérer toutes les informations
+disponibles sur un dossier ou répertoire donné et les affiche selon l’ordre alphabétique des noms des fichiers.
+Vous n’avez donc plus besoin d’utiliser la commande Linux cd pour vous déplacer dans un autre répertoire afin de visualiser son contenu.
+La commande ls est donc un outil précieux, qui peut considérablement faciliter votre travail. 
+Si vous ne spécifiez aucun répertoire en particulier, le système affiche alors les informations disponibles sur le répertoire en cours d’utilisation.
+synthaxe : ls [Options] [Répertoire]
+
+----- Over the Wire lever 1 -----
+ls -alps
+cat readme
+copier le mdp
+exit
+ssh
+l'username accolé à l'host
+commande -p
+numéro du port
+appuyé sur entrée
+mettre le mot de passe
+entrer
+
+cd : permet de changer le répertoire courant.
+Ce répertoire peut être exprimé selon plusieurs formes :
+le chemin relatif : ce chemin represente un répertoire à partir du répertoire courant
+le chemin absolu : ce chemin représente la chemin complet depuis le répertoire racine de l'arborescence
+.. : répresente le répertoire père du répertoire courant
+~ : répresente le répertoire de connexion de l'utilisateur
+une variable qui contient le chemin définit par le shell ou par l'utilisateur
+Par défaut, si le répertoire n'est pas précisé, le répertoire courant sera le répertoire de connexion de l'utilisateur
+ex : cd $HOME
+
+cat : permet d’afficher, de combiner et de manipuler des fichiers texte.
+peut être utilisé pour visualiser rapidement le contenu des fichiers de configuration dans le répertoire /etc ou pour concaténer plusieurs fichiers en un seul. 
+préinstallée avec le package coreutils dans tous les systèmes basés sur Debian et Red Hat
+synthaxe : cat suivi du nom du fichier
+
+-alps :
