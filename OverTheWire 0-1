@@ -40,19 +40,15 @@ appuyé sur entrée
 mettre le mot de passe
 entrer
 
-cd : permet de changer le répertoire courant.
-Ce répertoire peut être exprimé selon plusieurs formes :
-le chemin relatif : ce chemin represente un répertoire à partir du répertoire courant
-le chemin absolu : ce chemin représente la chemin complet depuis le répertoire racine de l'arborescence
-.. : répresente le répertoire père du répertoire courant
-~ : répresente le répertoire de connexion de l'utilisateur
-une variable qui contient le chemin définit par le shell ou par l'utilisateur
-Par défaut, si le répertoire n'est pas précisé, le répertoire courant sera le répertoire de connexion de l'utilisateur
-ex : cd $HOME
-
 cat : permet d’afficher, de combiner et de manipuler des fichiers texte.
 peut être utilisé pour visualiser rapidement le contenu des fichiers de configuration dans le répertoire /etc ou pour concaténer plusieurs fichiers en un seul. 
 préinstallée avec le package coreutils dans tous les systèmes basés sur Debian et Red Hat
 synthaxe : cat suivi du nom du fichier
 
--alps :
+-alps : voici ce que fait chaque option et ce que vous obtenez :
+
+-a : affiche tous les fichiers, y compris les fichiers « cachés » dont le nom commence par un point (., .. inclus).
+-l : format « long » — affiche les permissions, nombre de liens, propriétaire, groupe, taille (en octets), date/heure et nom.
+-p : ajoute un caractère indicateur aux noms ; en particulier « / » à la fin des répertoires (utile pour distinguer dossiers/fichiers).
+-s : affiche la taille en blocs en première colonne (nombre de blocs alloués pour chaque fichier). L’unité des blocs dépend du système / des variables d’environnement (BLOCK_SIZE, --block-size, etc.).
+Exemple d’utilisation : ls -alps
