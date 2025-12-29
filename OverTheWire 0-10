@@ -64,9 +64,34 @@ synthaxe : cat suivi du nom du fichier
 -s : affiche la taille en blocs en première colonne (nombre de blocs alloués pour chaque fichier). L’unité des blocs dépend du système / des variables d’environnement (BLOCK_SIZE, --block-size, etc.).
 Exemple d’utilisation : ls -alps
 
------ Level 1- 2
+----- Level 1- 2 -----
 ls - alps
 cat ./-
+copier mdp
+exit
+ssh
+l'username accolé à l'host
+commande -p
+numéro du port
+appuyé sur entrée
+mettre le mot de passe
+entrer
 
 ----- Commandes -----
 ./- : 
+
+----- Level 2-3 -----
+ls -alps
+cat spaces\ in\ this\ filename
+copier mdp
+exit
+ssh
+l'username accolé à l'host
+commande -p
+numéro du port
+appuyé sur entrée
+mettre le mot de passe
+entrer
+
+----- commandes -----
+cat spaces\ in\ this\ filename :
