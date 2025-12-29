@@ -66,5 +66,7 @@ Exemple d’utilisation : ls -alps
 
 ----- Level 1- 2
 ls - alps
-find -
-cat -
+cat ./-
+
+----- Commandes -----
+./- : 
