@@ -1,0 +1,7 @@
+-----bandit 0 -----
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+mdp : bandit 0
+
+----- bandit 1 -----
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+mdp : ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
