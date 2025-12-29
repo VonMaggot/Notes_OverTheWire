@@ -36,7 +36,7 @@ La commande ls est donc un outil précieux, qui peut considérablement faciliter
 Si vous ne spécifiez aucun répertoire en particulier, le système affiche alors les informations disponibles sur le répertoire en cours d’utilisation.
 synthaxe : ls [Options] [Répertoire]
 
------ Over the Wire lever 1 -----
+----- Over the Wire level 0- 1 -----
 ls -alps
 cat readme
 copier le mdp
@@ -63,3 +63,8 @@ synthaxe : cat suivi du nom du fichier
 -p : ajoute un caractère indicateur aux noms ; en particulier « / » à la fin des répertoires (utile pour distinguer dossiers/fichiers).
 -s : affiche la taille en blocs en première colonne (nombre de blocs alloués pour chaque fichier). L’unité des blocs dépend du système / des variables d’environnement (BLOCK_SIZE, --block-size, etc.).
 Exemple d’utilisation : ls -alps
+
+----- Level 1- 2
+ls - alps
+find -
+cat -
