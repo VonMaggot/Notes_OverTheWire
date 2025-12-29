@@ -12,4 +12,4 @@ mdp : 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
 ----- bandit 3 -----
 ssh bandit3@bandit.labs.overthewire.org -p 2220
-mdp 
+mdp : MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
