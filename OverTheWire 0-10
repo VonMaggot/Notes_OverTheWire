@@ -94,4 +94,15 @@ mettre le mot de passe
 entrer
 
 ----- commandes -----
-cat spaces\ in\ this\ filename :
+ls -alsp
+file ./--spaces\ in\ this\ filename--
+cat ./--spaces\ in\ this\ filename--
+copier mdp
+exit
+ssh
+l'username accolé à l'host
+commande -p
+numéro du port
+appuyé sur entrée
+mettre le mot de passe
+entrer
