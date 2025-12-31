@@ -78,7 +78,7 @@ mettre le mot de passe
 entrer
 
 ----- Commandes -----
-./- : 
+./- : ./ le dossier courant
 
 ----- Level 2-3 -----
 ls -alps
@@ -95,5 +95,6 @@ mettre le mot de passe
 entrer
 
 ----- commandes -----
-file ./--spaces\ in\ this\ filename--
-cat ./--spaces\ in\ this\ filename--
+file ./--spaces\ in\ this\ filename-- : c'est le dossier courant avec le nom du fichier, les slash servent à échapper les espaces pour faire comprendre au terminal
+que les espaces font parties du nom du fichier. Et file lit le contenu binaire pour deviner le type.
+cat ./--spaces\ in\ this\ filename-- : c'est la même choses pour celui-ci. Et cat affiche le contenu d’un fichier texte dans le terminal.
