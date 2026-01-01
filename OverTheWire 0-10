@@ -119,3 +119,18 @@ cd :
 ----- Level 4-5 -----
 ls -alps
 cd inhere
+ls -alps
+file ./* | grep ASCII
+cat ./-file07
+copier mdp
+exit
+ssh
+l'username accolé à l'host
+commande -p
+numéro du port
+appuyé sur entrée
+mettre le mot de passe
+entrer
+
+----- Commandes -----
+file ./* | grep ASCII : 
