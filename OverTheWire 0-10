@@ -114,7 +114,8 @@ mettre le mot de passe
 entrer
 
 -----Commandes -----
-cd :
+cd : utilisée pour changer de répertoire courant dans le système de fichiers Linux. 
+Elle permet aux utilisateurs de naviguer rapidement entre différents répertoires, facilitant ainsi la gestion des fichiers et des dossiers. 
 
 ----- Level 4-5 -----
 ls -alps
@@ -133,4 +134,7 @@ mettre le mot de passe
 entrer
 
 ----- Commandes -----
-file ./* | grep ASCII : 
+file ./* | grep ASCII : grep permet de rechercher dans un fichier des lignes spécifiques contenant un motif particulier. 
+Elle est utile pour vérifier rapidement l’existence d’une entrée, en particulier pour les éléments volumineux tels que les fichiers journaux. 
+* représente zéro ou plus du caractère précédent.
+
