@@ -14,8 +14,10 @@ Une fois connecté, vous pouvez exécuter toutes les commandes dont vous avez be
 Et non, l'utilisation de SSH n'est pas difficile. 
 L'utilisation de SSH est non seulement relativement facile, mais elle est également très puissante.
 
--p : l'option -p de ls ajoute un slash (/) à la fin des noms de répertoires.
-Autrement dit, elle permet d'identifier rapidement les répertoires dans la sortie de ls.
+-p : Un port de connexion est un point virtuel géré par le système d’exploitation où commencent et se terminent les communications réseau. 
+Chaque port est associé à un numéro unique et à un service ou protocole spécifique, ce qui permet à un ordinateur de distinguer 
+différents types de trafic circulant sur la même connexion Internet.
+
 
 ----- A lire -----
 Secure Shell (SSH) on Wikipedia
