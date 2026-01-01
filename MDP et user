@@ -17,3 +17,7 @@ mdp : MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 ----- bandit 4 -----
 ssh bandit4@bandit.labs.overthewire.org -p 2220
 mdp : 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+----- bandit 5 -----
+ssh bandit4@bandit.labs.overthewire.org -p 2220
+mdp :
