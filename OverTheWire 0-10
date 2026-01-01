@@ -115,3 +115,7 @@ entrer
 
 -----Commandes -----
 cd :
+
+----- Level 4-5 -----
+ls -alps
+cd inhere
