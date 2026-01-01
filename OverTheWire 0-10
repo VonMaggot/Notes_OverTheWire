@@ -134,7 +134,26 @@ mettre le mot de passe
 entrer
 
 ----- Commandes -----
-file ./* | grep ASCII : grep permet de rechercher dans un fichier des lignes spécifiques contenant un motif particulier. 
-Elle est utile pour vérifier rapidement l’existence d’une entrée, en particulier pour les éléments volumineux tels que les fichiers journaux. 
-* représente zéro ou plus du caractère précédent.
+file ./* | grep ASCII : Cette ligne sert à repérer rapidement les fichiers texte (ASCII) dans un répertoire.
+file analyse le contenu réel de chaque fichier (pas l’extension)
+./* : tous les fichiers du dossier courant
+| envoie la sortie de la commande de gauche vers la commande de droite
+Donc ici le résultat de file est transmis à grep
+grep filtre les lignes contenant le mot ASCII
+grep permet de rechercher dans un fichier des lignes spécifiques contenant un motif particulier. 
+Elle est utile pour vérifier rapidement l’existence d’une entrée, en particulier pour les éléments volumineux tels que les fichiers journaux.
 
+ASCII est une façon de représenter du texte avec des nombres pour que les ordinateurs puissent le comprendre.
+En clair : ASCII = texte simple compréhensible par l’ordinateur
+Un ordinateur ne comprend que des nombres (0 et 1).
+ASCII sert à dire :
+- le nombre 65 = la lettre A
+le nombre 97 = la lettre a
+le nombre 48 = le chiffre 0
+Grace à ça le texte devient lisible.
+
+exemple pour la commande cat :
+c = 99
+a = 97
+t = 116
+Donc le fichier contient juste des chiffres correspondant à des lettres.
